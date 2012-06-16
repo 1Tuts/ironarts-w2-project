@@ -15,25 +15,23 @@
 <script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
-	<div class="container">
-		<div class="nav left">
-			<div class="logo mla mra">
-				<h1>iron arts</h1>
-			</div>
-			<ul class="mla mra">
-				<li class="home-li"><a href="index.php" style="background-color:black">HOME</a></li>
-				<li class="about-li"><a href="about.php">ABOUT</a></li>
-				<li class="port-li"><a href="portfolio.php">PORTFOLIO</a></li>
-				<li class="contanct-li"><a href="contact.php">CONTACTS</a></li>
-			</ul>
-			<div class="hide-nav mla mra"></div>	
+	<div class="nav">
+		<div class="logo mla mra">
+			<h1>iron arts</h1>
 		</div>
-		<div class="container-content ml7 cover">		
-			</div>
+		<ul class="mla mra">
+			<li class="home-li"><a href="index.php" style="background-color:black">HOME</a></li>
+			<li class="about-li"><a href="about.php">ABOUT</a></li>
+			<li class="port-li"><a href="portfolio.php">PORTFOLIO</a></li>
+			<li class="contanct-li"><a href="contact.php">CONTACTS</a></li>
+		</ul>
+		<div class="hide-nav mla mra"></div>	
 	</div>
-
-	</div>
-	<div class="clear"></div>
+	<div class="container-content ml7 cover">		
+		</div>
+</div>
+<div class="clear"></div>
+	
 <!------------footer------------>
 	<div class="bottom-background">
 		<div class="bottom-container">
