@@ -15,6 +15,7 @@
 <script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
+	<div class="header"></div>
 	<div class="nav">
 		<div class="logo mla mra">
 			<h1>iron arts</h1>

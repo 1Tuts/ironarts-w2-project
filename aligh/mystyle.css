@@ -37,6 +37,13 @@
 	background-image: url(images/4.jpg);
 }
 
+/*.header{
+	z-index:2;
+	opacity:0.9;
+	height:23px;
+	background-image:url(images/top_bg.png);
+}
+*/
 .container{
 	min-height:600px;
 	width:980px;
@@ -51,7 +58,7 @@
 	background-repeat:no-repeat;
 	background-position:center top;
 	position:absolute;
-	top:0;
+	top:0px;
 	z-index:2;
 	left:10px;
 }
