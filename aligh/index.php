@@ -80,6 +80,7 @@
 		</div>
 	</div>
 <!------------backImage------------>
+	<div class="noise"></div>
 	<div class="backimg">
 		<div class="img1"></div>
 		<div class="img2"></div>

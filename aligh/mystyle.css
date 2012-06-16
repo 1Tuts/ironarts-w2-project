@@ -1,4 +1,14 @@
 	/*********************backImage***************************/
+.noise{
+	background-image:url(images/picefct.png);
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:1;
+}
+
 .backimg > div{
 	position:fixed;
 	background-position:center top;
@@ -42,6 +52,7 @@
 	background-position:center top;
 	position:absolute;
 	top:0;
+	z-index:2;
 	left:10px;
 }
 
