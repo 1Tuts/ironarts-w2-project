@@ -49,10 +49,41 @@ window.onload=function(){
 
 $(function(){
 		$('.hide-nav').click(function(){
-		$('.nav').stop().animate({'top':'-400px'},700,null,function(){
-			$('.hide-nav').click(function(){
+							$('.hide-nav').css(
+								'-webkit-transform','rotate(180deg)'
+							);
+							$('.hide-nav').css(
+								'-moz-transform','rotate(180deg)'
+							);
+							$('.hide-nav').css(
+								'-o-transform','rotate(180deg)'
+							);
+							$('.hide-nav').css(
+								'-ms-transform','rotate(180deg)'
+							);
+							$('.hide-nav').css(
+								'transform','rotate(180deg)'
+							);
+
+			$('.nav').stop().animate({'top':'-400px'},1000,null,function(){
+				$('.hide-nav').click(function(){
 					if($('.nav').css('top')=='-400px'){
-						$('.nav').stop().animate({'top':'0px'},700)
+							$('.nav').stop().animate({'top':'0px'},1000);
+							$('.hide-nav').css(
+								'-webkit-transform','rotate(0)'
+							);
+							$('.hide-nav').css(
+								'-moz-transform','rotate(0)'
+							);
+							$('.hide-nav').css(
+								'-o-transform','rotate(0)'
+							);
+							$('.hide-nav').css(
+								'-ms-transform','rotate(0)'
+							);
+							$('.hide-nav').css(
+								'transform','rotate(0)'
+							);
 					}
 			});
 			});

@@ -93,18 +93,13 @@
 
 .hide-nav{
 	background-image:url(images/menu_hide_arrow_top.png);
+	background-repeat:no-repeat;
 	height:48px;
 	width:48px;
 	margin-top:60px;
 	cursor:pointer;
-}
-
-.show-nav{
-	background-image:url(images/menu_hide_arrow_bottom.png);
-	height:48px;
-	width:48px;
-	margin-top:60px;
-	cursor:pointer;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
 }
 
 	/*********************CONTACT***************************/
@@ -348,6 +343,7 @@ div.send-alert-correct img{
 
 .bottom-background{
 	background-image:url(images/bottom_row.gif);
+	margin-top:600px;
 }
 
 .bottom-background .bottom-container{
@@ -434,7 +430,7 @@ div.send-alert-correct img{
 
 .footer-content a{
 	text-decoration:none;
-	color:#800;
+	color:#CCC;
 	transition:color 1000ms;
 	-webkit-transition:color 1000ms;
 	-moz-transition:color 1000ms;
@@ -444,5 +440,5 @@ div.send-alert-correct img{
 
 .footer-content a:hover{
 	text-decoration:underline;
-	color:#C00;
+	color:#FFF;
 }
