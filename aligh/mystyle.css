@@ -41,7 +41,6 @@
 	background-image:url(images/head_reabon.png);
 	background-repeat:no-repeat;
 	background-position:center top;
-	opacity:.9;
 	position:absolute;
 	top:0;
 }
@@ -349,7 +348,6 @@ div.send-alert-correct img{
 
 .bottom-background{
 	background-image:url(images/bottom_row.gif);
-	opacity:.9;
 }
 
 .bottom-background .bottom-container{
