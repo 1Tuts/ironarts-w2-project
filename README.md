@@ -18,6 +18,7 @@ The website for the **Iron-Art** company
 * [1Styles](http://ali.md/1styles)
 * [JavaScript](http://ali.md/wiki/javascript)
 * [jQuery.js](http://ali.md/jquery.js)
+* [Zepto.js](http://ali.md/zepto.js)
 * [PHP](http://ali.md/php/)
 * [MySQL](http://ali.md/wiki/mysql)
 
