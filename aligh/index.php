@@ -37,7 +37,7 @@
 <div class="clear"></div>
 	
 <!------------footer------------>
-	<div class="bottom-background">
+	<div class="bottom-background" style="margin-top:600px;">
 		<div class="bottom-container">
 			<div class="bottom-content mla mra">
 				<div class="topic mla mra">
@@ -79,7 +79,14 @@
 		</div>
 		<div class="footer-container">
 			<div class="footer-content mla mra">
-				<h4>Copyright © 2012. All rights reserved. check this project at <a href="https://github.com/1schools-projects/ironarts">Github</a></h4>
+				<div class="copy left">
+					<h4>Copyright © 2012. All rights reserved. check this project at <a href="https://github.com/1schools-projects/ironarts">Github</a></h4>
+				</div>
+				<div class="social">
+					<a href="http://www.facebook.com/hamid.rahbar.3"><img src="images/facebook.png" width="35" height="35" alt="facebook" /></a>
+					<a href="#"><img src="images/google-plus.jpg" width="32" height="32" alt="plus" /></a>
+					<a href="#"><img class="last-child" src="images/twitter.png" width="35" height="35" alt="twitter" /></a>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1,5 +1,5 @@
 body{
-	height:380px;
+	height:375px;
 }
 
 	/*********************backImage***************************/
@@ -365,7 +365,6 @@ div.send-alert-correct img{
 
 .bottom-background{
 	background-image:url(images/bottom_row.gif);
-	margin-top:600px;
 }
 
 .bottom-background .bottom-container{
@@ -443,13 +442,45 @@ div.send-alert-correct img{
 .footer-container .footer-content{
 	width:980px;
 	min-height:40px;
-	padding-top:20px;
+	padding-top:1px;
 }
 
-.footer-content h4{
+.copy{
+	width:500px;
+	margin-top:15px;
+}
+
+.copy h4{
 	font-family:"Courier New", Courier, monospace;
 	color:#FFF;
 	font-size:11px;
+}
+
+.social{
+	margin-left:500px;
+	margin-top:2px;
+}
+
+.social img{
+	display:block;
+	float:right;
+	margin-right:10px;
+	opacity:.6;
+	transition:opacity 500ms;
+	-webkit-transition:opacity 500ms;
+	-moz-transition:opacity 500ms;
+	-o-transition:opacity 500ms;
+	-ms-transition:opacity 500ms;
+	cursor:pointer;
+}
+
+.social img:hover{
+	opacity:1;
+}
+
+.social .last-child{
+	float:none !important;
+	margin-left:350px;
 }
 
 .footer-content a{
