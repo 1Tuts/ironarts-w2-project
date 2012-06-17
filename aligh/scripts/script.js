@@ -65,10 +65,10 @@ $(function(){
 				'transform','rotate(180deg)'
 			);
 
-			$('.nav').stop().animate({'top':'-400px'},1000,null,function(){
+			$('.nav').animate({'top':'-400px'},1000,null,function(){
 			$('.hide-nav').click(function(){
 				if($('.nav').css('top')=='-400px'){
-						$('.nav').stop().animate({'top':'0px'},1000);
+						$('.nav').animate({'top':'0px'},1000);
 						$('.hide-nav').css(
 							'-webkit-transform','rotate(0)'
 						);
