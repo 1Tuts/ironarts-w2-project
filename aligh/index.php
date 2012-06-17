@@ -45,29 +45,29 @@
 					<div class="art">
 						<h2>Articles</h2>
 						<ul>
-							<li><a href="#">test testtest test testtest </a></li>
-							<li><a href="#">test testtest test testtest </a></li>
-							<li><a href="#">test testtest test testtest </a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show </a></li>
+							<li><a href="#">Nothing for show</a></li>
 						</ul>
 					</div>
 					<div class="cat">
 						<h2>Categories</h2>
 						<ul>
-							<li><a href="#">test testtest test testtest </a></li>
-							<li><a href="#">test testtest test testtest </a></li>
-							<li><a href="#">test testtest test testtest </a></li>
-							<li><a href="#">test testtest test testtest </a></li>
-							<li><a href="#">test testtest test testtest </a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
 						</ul>
 					</div>
 					<div class="arc">
 						<h2>archive</h2>
 						<ul>
-							<li><a href="#">test testtest testtest test testtest </a></li>
-							<li><a href="#">test testtest test test test testtest </a></li>
-							<li><a href="#">test testtest testtest test  testtest </a></li>
-							<li><a href="#">test testtest testtest  testtest </a></li>
-							<li><a href="#">test testtest test testtest  test </a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
+							<li><a href="#">Nothing for show</a></li>
 						</ul>
 					</div>
 					<div class="fli cover">
