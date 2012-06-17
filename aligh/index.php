@@ -1,18 +1,21 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>:..IRON ARTS..:</title>
-<link rel="stylesheet" type="text/css" href="reset.css" />
-<link rel="stylesheet" type="text/css" href="1styles.css" />
-<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="mystyle.css" />
-
-<link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="scripts/jquery.js"></script>
-<script type="text/javascript" src="scripts/lightbox.js"></script>
-<script type="text/javascript" src="scripts/slideshow.js"></script>
-<script type="text/javascript" src="scripts/script.js"></script>
+	<meta charset="utf-8">
+	<title>:..IRON ARTS..:</title>
+	<link rel="stylesheet" type="text/css" href="reset.css" />
+	<link rel="stylesheet" type="text/css" href="1styles.css" />
+	<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="scripts/zepto.js"></script>
+	<script type="text/javascript" src="scripts/lightbox.js"></script>
+	<script type="text/javascript">
+		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
+	</script>
+	<script type="text/javascript" src="scripts/slideshow.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
 	<div class="header"></div>
@@ -83,10 +86,9 @@
 <!------------backImage------------>
 	<div class="noise"></div>
 	<div class="backimg">
-		<div class="img1"></div>
-		<div class="img2"></div>
-		<div class="img3"></div>
-		<div class="img4"></div>
+			<script type="text/javascript">
+				for(var i=1;i<5;i++) document.write('<div style="background-image :url(images/'+i+'.jpg);"></div>');
+			</script>
 	</div>
 </body>
 </html>
