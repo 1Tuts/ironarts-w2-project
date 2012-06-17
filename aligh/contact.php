@@ -72,7 +72,7 @@
 		$phone = $_POST['phone'];
 		$Message = $_POST['Message'];
 		
-		if( @mail("admin@yaranemahdi-313.ir",$Subject ,$name+"<br  />"+$phone+"<br  />"+$Message,"From:info@ironarts.ir\nReply-To:$email") ){
+		if( @mail("hamid.rahbar47@gmail.com",$Subject ,$name+"<br  />"+$phone+"<br  />"+$Message,"From:info@ironarts.ir\nReply-To:$email") ){
 			echo 
 			"<style type='text/css'>
 				div.send-alert-correct{

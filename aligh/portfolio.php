@@ -31,9 +31,9 @@
 			<div class="portfolio-content">
 				<h1>MY PORTFOLIO</h1>
 				<div class="sample w11 last">
-					<img class="left" src="images/doors/thumb.jpg"  width="251" height="371">
+					<img class="left" src="images/doors/thumb.jpg"   width="251" height="211">
 					<div class="desc">
-						<h1>consectetuer</h1>
+						<h1>DOORS</h1>
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
@@ -61,7 +61,7 @@
 				<div class="sample w11 last">
 					<img class="left" src="images/staircase/thumb.jpg"  width="251" height="211">
 					<div class="desc">
-						<h1>consectetuer</h1>
+						<h1>STAIRCASES</h1>
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
@@ -112,21 +112,32 @@
 				</div>
 				<div class="clear"></div>
 				<div class="sample w11 last">
-					<img class="left" src="images/tables/thumb.jpg"  width="251" height="211">
+					<img class="left" src="images/furniture/thumb.jpg"  width="251" height="211">
 					<div class="desc">
-						<h1>consectetuer</h1>
+						<h1>FURNITURES</h1>
 						<p>
 							Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.
 						</p>
 						<div class="more">
-							<a href="images/tables/1.jpg" title="" rel="lightbox[group3]">More Samples</a>
+							<a href="images/furniture/1.jpg" title="" rel="lightbox[group3]">More Samples</a>
 						</div>
-						<a href="images/tables/2.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/tables/3.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/tables/4.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/tables/5.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/tables/6.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/tables/7.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/2.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/3.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/4.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/5.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/6.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/7.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/8.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/9.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/10.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/11.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/12.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/13.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/14.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/15.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/16.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/17.jpg" title="" rel="lightbox[group3]" ></a>
+						<a href="images/furniture/18.jpg" title="" rel="lightbox[group3]" ></a>
 					</div>
 				</div>
 				<div class="clear"></div>
