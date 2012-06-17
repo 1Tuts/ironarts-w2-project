@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>:..IRON ARTS..:</title>
+<title>:..LOUTOS IRON..:</title>
 <link rel="stylesheet" type="text/css" href="reset.css" />
 <link rel="stylesheet" type="text/css" href="1styles.css" />
 <link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="nav left">
 			<div class="logo mla mra">
-				<h1>iron arts</h1>
+				<h1>LOUTOS IRON</h1>
 			</div>
 			<ul class="mla mra">
 				<li class="home-li"><a href="index.php">HOME</a></li>
