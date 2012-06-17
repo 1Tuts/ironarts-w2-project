@@ -31,11 +31,13 @@
 			<div class="about-content">
 				<h1>MY BIO</h1>
 				<div class="person-pic left w6 last">
-					<img src="images/page3_img1.jpg" width="100%">
+					<img src="images/about.jpg" width="100%">
 				</div>
 				<div class="desc ml6">
-					<h1>consectetuer</h1>
-					<p>Praesent vestibulum molestie lacus. Aenean nonummy 1999 hendrerit mauris. Phasellus porta. Fusce sucipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 2001 mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas 2011 tristique.</p>
+					<span>Address: </span><p>NO.158, Kooshesh 16, fooroodgah Blv, Mashhad</p>
+					<span>Telefax: </span><p> +98 511 341 294</p>
+					<span>Cell Phone: </span><p> +98 915 111 4025</p>
+					<span>Email: </span> <p>hamid.rahbar47@gmail.com</p>
 				</div>
 				<div class="clear"></div>				
 			</div>

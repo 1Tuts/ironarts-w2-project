@@ -280,12 +280,18 @@ div.send-alert-correct img{
 }
 
 .about-content p{
-	color: rgb(74, 74, 74);
+	color: #999;
+	padding:10px;
 }
 
 .about-content h1,
 .about-content h2{
 	color: white;
+}
+
+.about-content span{
+	font-weight:bold;
+	color:#FFF;
 }
 
 .about-content h1,
