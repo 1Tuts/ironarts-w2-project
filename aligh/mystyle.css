@@ -1,3 +1,7 @@
+body{
+	height:380px;
+}
+
 	/*********************backImage***************************/
 .noise{
 	background-image:url(images/picefct.png);
