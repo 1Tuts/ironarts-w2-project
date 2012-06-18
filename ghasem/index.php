@@ -1,28 +1,26 @@
 <?php include('header.php') ?>
-<div class="container">
-
+	<div class="header"></div>
 	<div class="nav nav-index left">
 		<?php include('main-menu.php') ?>
+		<div class="hide-nav mla mra"></div>
 	</div>
 
-	<div class="container-content ml7 cover"> 
-		
+	<div class="container-content ml7 cover"> </div>
+<div class="clear"></div>
 
-	</div>
 
-</div>
-
-<!------------footer------------>
-
+<!--..........footer.........-->
 
 <?php include('footer.php') ?>
 
-<!------------backImage------------>
+<!--.........backImage.........-->
+
+<div class="noise"></div>
 <div class="backimg">
-	<div class="img1"></div>
-	<div class="img2"></div>
-	<div class="img3"></div>
-	<div class="img4"></div>
+	<script type="text/javascript">
+		for(var i=1;i<5;i++) document.write('<div style="background-image :url(images/'+i+'.jpg);"></div>');
+	</script>
 </div>
+
 </body>
 </html>
