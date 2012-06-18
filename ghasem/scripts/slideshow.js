@@ -35,6 +35,6 @@
 
 
 $(function(){
-	$('.backimg > div').fadeLoop();
+	$('.slideshow > div').fadeLoop();
 });
 

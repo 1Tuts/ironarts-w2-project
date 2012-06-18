@@ -1,11 +1,22 @@
-<?php include('header.php') ?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>:..LOUTOS IRON..:</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="1styles.css" />
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+<link href='http://fonts.googleapis.com/css?family=Julee|Fredericka+the+Great|Oleo+Script|Berkshire+Swash' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/lightbox.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
 <div class="container">
-
 	<div class="nav nav-contact left">
 		<?php include('main-menu.php') ?>
 	</div>
-
-
 	<div class="container-content ml8 cover">
 		<div class="contact-us-form w14">
 			<div class='send-alert-error'>Error in sending mail. </div>
@@ -41,7 +52,10 @@
 		<div class="clear"></div>
 	</div>
 </div>
-<?php include('footer.php') ?>
+<!--..........footer.........-->
+<div class="bottom-background">
+	<?php include('footer.php') ?>
+</div>
 <!------------backImage------------>
 <div class="backimg">
 	<div class="img2" style="opacity:0.7"></div>
