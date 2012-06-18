@@ -1,7 +1,13 @@
 <?php 
 
 	get_header();
-	get_template_part('header','home')
+	
+	if($post->post_name == 'home'){
+		get_template_part('header','home');
+	}else{
+		get_template_part('header','other_pages');
+	}
+
 
  ?>
 	
