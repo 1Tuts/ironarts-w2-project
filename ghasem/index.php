@@ -10,13 +10,13 @@
 
 
 <!--..........footer.........-->
-
-<?php include('footer.php') ?>
-
+<div class="bottom-background" style='margin-top:600px;'>
+	<?php include('footer.php') ?>
+</div>
 <!--.........backImage.........-->
 
 <div class="noise"></div>
-<div class="backimg">
+<div class="backimg slideshow">
 	<script type="text/javascript">
 		for(var i=1;i<5;i++) document.write('<div style="background-image :url(images/'+i+'.jpg);"></div>');
 	</script>

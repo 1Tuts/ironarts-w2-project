@@ -1,5 +1,5 @@
 <!--...............footer............-->
-<div class="bottom-background" style="margin-top:600px;">
+<div class="bottom-background">
 		<div class="bottom-container">
 			<div class="bottom-content mla mra">
 				<div class="topic mla mra">
