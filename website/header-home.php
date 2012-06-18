@@ -13,6 +13,13 @@
 		<h1>LOUTOS IRON</h1>
 	</div>
 	<ul class="mla mra">
+		<?php
+			wp_list_pages(array(
+				'title_li' => '',
+				'child_of' => 44,
+				'depth'    => 1
+			));
+		?>
 		<li class="home-li"><a href="index.php" style="background-color:black">HOME</a></li>
 		<li class="about-li"><a href="about.php">ABOUT</a></li>
 		<li class="port-li"><a href="portfolio.php">PORTFOLIO</a></li>
