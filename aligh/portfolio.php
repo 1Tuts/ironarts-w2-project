@@ -49,7 +49,7 @@
 							while($file_type = $d->read()){
 								$files = end(explode('.',$file_type) );
 								if(!in_array(strtolower($files) ,$allowed_type) ) continue;
-								echo "<a href='images/doors/$pics_name.jpg' title='' rel='lightbox[group1]' ></a>";
+								echo "<a href='$dir/$pics_name.jpg' title='' rel='lightbox[group1]' ></a>";
 								$pics_name++;
 							}
 						?>
@@ -67,46 +67,18 @@
 						<div class="more">
 							<a href="images/staircase/1.jpg" title="" rel="lightbox[group2]">More Samples</a>
 						</div>
-						<a href="images/staircase/2.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/3.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/4.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/5.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/6.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/7.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/8.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/9.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/10.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/11.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/12.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/13.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/14.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/15.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/16.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/16.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/17.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/18.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/19.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/20.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/21.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/22.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/23.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/24.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/25.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/26.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/27.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/28.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/29.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/30.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/31.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/32.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/33.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/34.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/35.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/36.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/37.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/38.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/39.jpg" title="" rel="lightbox[group2]" ></a>
-						<a href="images/staircase/40.jpg" title="" rel="lightbox[group2]" ></a>
+						<?php
+							$pics_name = 1;
+							$dir = './images/staircase';
+							$allowed_type = array('jpg','jpeg','png','gif');
+							$d = dir($dir);
+							while($file_type = $d->read()){
+								$files = end(explode('.',$file_type) );
+								if(!in_array(strtolower($files) ,$allowed_type) ) continue;
+								echo "<a href='$dir/$pics_name.jpg' title='' rel='lightbox[group2]' ></a>";
+								$pics_name++;
+							}
+						?>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -120,23 +92,18 @@
 						<div class="more">
 							<a href="images/furniture/1.jpg" title="" rel="lightbox[group3]">More Samples</a>
 						</div>
-						<a href="images/furniture/2.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/3.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/4.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/5.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/6.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/7.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/8.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/9.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/10.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/11.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/12.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/13.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/14.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/15.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/16.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/17.jpg" title="" rel="lightbox[group3]" ></a>
-						<a href="images/furniture/18.jpg" title="" rel="lightbox[group3]" ></a>
+						<?php
+							$pics_name = 1;
+							$dir = './images/furniture';
+							$allowed_type = array('jpg','jpeg','png','gif');
+							$d = dir($dir);
+							while($file_type = $d->read()){
+								$files = end(explode('.',$file_type) );
+								if(!in_array(strtolower($files) ,$allowed_type) ) continue;
+								echo "<a href='$dir/$pics_name.jpg' title='' rel='lightbox[group3]' ></a>";
+								$pics_name++;
+							}
+						?>
 					</div>
 				</div>
 				<div class="clear"></div>
