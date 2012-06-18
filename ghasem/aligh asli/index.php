@@ -31,9 +31,7 @@
 		</ul>
 		<div class="hide-nav mla mra"></div>	
 	</div>
-	<div class="container-content ml7 cover">		
-		</div>
-</div>
+	<div class="container-content ml7 cover"></div>
 <div class="clear"></div>
 	
 <!------------footer------------>
