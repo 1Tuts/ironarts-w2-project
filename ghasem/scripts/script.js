@@ -8,8 +8,8 @@ window.onload=function(){
 			
 			if(myform.elements.item(i).className!='ok'){
 				
-				alert("Do not forget "+myform.elements.item(i).name);
-				t=false;	
+				myform.elements.item(i).style.borderColor='red'
+;				t=false;	
 			}
 		}
 		return t;
@@ -28,18 +28,11 @@ window.onload=function(){
 				}
 				else{
 					this.className='not-ok';
-					document.getElementsByClassName('contact-us-form').item(0).getElementsByTagName('table').item(0).getElementsByTagName('tr').item(i).getElementsByTagName('td').item(0).style.color='red';
 				}
 				
 				
 			}
 		}
-		
-	}
-	
-	function hide_send_alert() {
-		$("div.send-alert").css("display","none");
-		alert("for test");
 		
 	}	
 }
