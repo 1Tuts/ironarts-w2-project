@@ -31,7 +31,7 @@
 			<div class="portfolio-content">
 				<h1>MY PORTFOLIO</h1>
 				<div class="sample w11 last">
-					<img class="left" src="images/doors/thumb.jpg"   width="251" height="211">
+					<img class="left" src="images/doors/thumb/thumb.jpg"   width="251" height="211">
 					<div class="desc">
 						<h1>DOORS</h1>
 						<p>
@@ -58,7 +58,7 @@
 				</div>
 				<div class="clear"></div>
 				<div class="sample w11 last">
-					<img class="left" src="images/staircase/thumb.jpg"  width="251" height="211">
+					<img class="left" src="images/staircase/thumb/thumb.jpg"  width="251" height="211">
 					<div class="desc">
 						<h1>STAIRCASES</h1>
 						<p>
@@ -83,7 +83,7 @@
 				</div>
 				<div class="clear"></div>
 				<div class="sample w11 last">
-					<img class="left" src="images/furniture/thumb.jpg"  width="251" height="211">
+					<img class="left" src="images/furniture/thumb/thumb.jpg"  width="251" height="211">
 					<div class="desc">
 						<h1>FURNITURES</h1>
 						<p>
