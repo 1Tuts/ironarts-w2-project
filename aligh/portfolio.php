@@ -40,21 +40,20 @@
 						<div class="more">
 							<a href="images/doors/1.jpg" title="" rel="lightbox[group1]">More Samples</a>
 						</div>
-						<a href="images/doors/2.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/3.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/4.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/5.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/6.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/7.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/8.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/9.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/10.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/11.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/12.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/13.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/14.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/15.jpg" title="" rel="lightbox[group1]" ></a>
-						<a href="images/doors/16.jpg" title="" rel="lightbox[group1]" ></a>
+						
+						<?php
+							$pics_name = 1;
+							$dir = './images/doors';
+							$allowed_type = array('jpg','jpeg','png','gif');
+							$d = dir($dir);
+							while($file_type = $d->read()){
+								$files = end(explode('.',$file_type) );
+								if(!in_array(strtolower($files) ,$allowed_type) ) continue;
+								echo "<a href='images/doors/$pics_name.jpg' title='' rel='lightbox[group1]' ></a>";
+								$pics_name++;
+							}
+						?>
+						
 					</div>
 				</div>
 				<div class="clear"></div>
