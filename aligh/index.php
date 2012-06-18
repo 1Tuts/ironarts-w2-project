@@ -18,7 +18,6 @@
 	<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
-	<div class="header"></div>
 	<div class="nav">
 		<div class="logo mla mra">
 			<h1>LOUTOS IRON</h1>
@@ -31,11 +30,6 @@
 		</ul>
 		<div class="hide-nav mla mra"></div>	
 	</div>
-	<div class="container-content ml7 cover">		
-		</div>
-</div>
-<div class="clear"></div>
-	
 <!------------footer------------>
 	<div class="bottom-background" style="margin-top:600px;">
 		<div class="bottom-container">
