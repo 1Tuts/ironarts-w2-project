@@ -7,6 +7,10 @@ html, body {
 }
 
 /* A container should group all your columns. */
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
 
 /*
 .cover {					/* IMPORTANT: Use this class at the beginning *//*
