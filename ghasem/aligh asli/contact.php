@@ -62,13 +62,14 @@
 </div>
 <?php 
 
-	if( isset($_POST['name']) && isset($_POST['user-email']) && isset($_POST['subject']) && isset($_POST['phone']) && isset($_POST['Message'])){
+	if( isset($_POST["name"]) && isset($_POST["user-email"]) && isset($_POST["subject"]) && isset($_POST["phone"]) && isset($_POST["Message"])){
 
-		$name = $_POST['name'];
-		$email = $_POST['user-email'];
-		$Subject = $_POST['Subject'];
-		$phone = $_POST['phone'];
-		$Message = $_POST['Message'];
+		$name = $_POST["name"];
+		$email = $_POST["user-email"];
+		$Subject = $_POST["Subject"];
+		$phone = $_POST["phone"];
+		$Message = $_POST["Message"];
+		echo $Message,$phone,$Subject;
 		
 		if( @mail("hamid.rahbar47@gmail.com",$Subject ,$name+"<br  />"+$phone+"<br  />"+$Message,"From:info@ironarts.ir\nReply-To:$email") ){
 			echo 
