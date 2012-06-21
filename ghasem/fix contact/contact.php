@@ -65,11 +65,12 @@
 	<?php 
 		
 		
-		$name = "$name";
-		$email ="$user_email";
-		$Subject = "$subject";
-		$phone = "$phone";
-		$message = "$message";
+		$name = $_POST['name'];
+		$email = $_POST['user-email'];
+		$Subject = $_POST['Subject'];
+		$phone = $_POST['phone'];
+		$Message = $_POST['message'];
+		
 		$header="from: $name <$email>";
 		$to ='ghassemsadeghi@gmail.com';
 		
