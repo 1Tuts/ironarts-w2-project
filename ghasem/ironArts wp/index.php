@@ -1,6 +1,6 @@
-<?php include('header.php') ?>
+<?php get_header(); ?>
 	<div class="nav nav-index left">
-		<?php include('main-menu.php') ?>
+		<?php 	get_template_part('main', 'menu'); ?>
 		<div class="hide-nav mla mra"></div>
 	</div>
 
@@ -10,14 +10,14 @@
 
 <!--..........footer.........-->
 <div class="bottom-background" style='margin-top:650px;'>
-	<?php include('footer.php') ?>
+	<?php get_footer(); ?>
 </div>
 <!--.........backImage.........-->
 
 <div class="noise"></div>
 <div class="backimg slideshow">
 	<script type="text/javascript">
-		for(var i=1;i<5;i++) document.write('<div style="background-image :url(images/'+i+'.jpg);"></div>');
+		for(var i=1;i<5;i++) document.write('<div style="background-image :url(<?php bloginfo('template_url') ?>/images/'+i+'.jpg);"></div>');
 	</script>
 </div>
 
