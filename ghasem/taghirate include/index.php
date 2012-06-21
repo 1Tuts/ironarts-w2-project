@@ -1,5 +1,4 @@
 <?php include('header.php') ?>
-	<div class="header"></div>
 	<div class="nav nav-index left">
 		<?php include('main-menu.php') ?>
 		<div class="hide-nav mla mra"></div>
@@ -10,7 +9,7 @@
 
 
 <!--..........footer.........-->
-<div class="bottom-background" style='margin-top:600px;'>
+<div class="bottom-background" style='margin-top:650px;'>
 	<?php include('footer.php') ?>
 </div>
 <!--.........backImage.........-->
