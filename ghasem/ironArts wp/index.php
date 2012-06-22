@@ -17,9 +17,6 @@
 	else if($post->post_title == 'contact us'){
 		get_template_part('contact','content');
 	}
-	else{
-		echo 'Nothing................................';
-	}
 	 ?>
 
 	</div>
@@ -28,7 +25,7 @@
 </div>
 
 <!--..........footer.........-->
-<div class="bottom-background" style="<?php if($post->post_title != 'portfolio' && $post->post_title != 'About us' && $post->post_title != 'contact us'){ echo'margin-top:700px;'; }else if($post->post_title == 'About us'){ echo'margin-top:150px;';} ?> ">
+<div class="bottom-background" style="<?php if($post->post_title != 'Portfolio' && $post->post_title != 'About us' && $post->post_title != 'contact us'){ echo'margin-top:700px;'; }else if($post->post_title == 'About us'){ echo'margin-top:150px;';} ?> ">
 	<?php get_footer(); ?>
 </div>
 <!--.........backImage.........-->
