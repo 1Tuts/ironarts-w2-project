@@ -8,20 +8,18 @@
 	<div class="container-content ml7 cover"> 
 
 	<?php 
-/*  in ja bayad be jaie post name   page ha gozashte beshe   man balad nabodam*/
-	if($post->post_name == 'Portfolio'){
+	if($post->post_title == 'Portfolio'){
 		get_template_part('portfolio','content');
 	}
-	else if($post->post_name == 'About us'){
+	else if($post->post_title == 'About us'){
 		get_template_part('about','content');
 	}
-	else if($post->post_name == 'contact us'){
+	else if($post->post_title == 'contact us'){
 		get_template_part('contact','content');
 	}
 	else{
 		echo 'Nothing................................';
 	}
-/*  in ja bayad be jaie post name   page ha gozashte beshe   man balad nabodam*/
 	 ?>
 
 	</div>
@@ -30,16 +28,18 @@
 </div>
 
 <!--..........footer.........-->
-<div class="bottom-background" style='margin-top:650px;'>
+<div class="bottom-background" style="<?php if($post->post_title != 'portfolio' && $post->post_title != 'About us' && $post->post_title != 'contact us'){ echo'margin-top:700px;'; }else if($post->post_title == 'About us'){ echo'margin-top:150px;';} ?> ">
 	<?php get_footer(); ?>
 </div>
 <!--.........backImage.........-->
 
 <div class="noise"></div>
 <div class="backimg slideshow">
-	<script type="text/javascript">
-		for(var i=1;i<5;i++) document.write('<div style="background-image :url(<?php bloginfo('template_url') ?>/images/'+i+'.jpg);"></div>');
-	</script>
+	<div class="img1"></div>
+	<div class="img2"></div>
+	<div class="img3"></div>
+	<div class="img4"></div>
+	<div class="img5"></div>
 </div>
 
 </body>
