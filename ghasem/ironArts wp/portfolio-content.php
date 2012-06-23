@@ -1,6 +1,6 @@
 		<script type="text/javascript" src="<?php bloginfo('template_url') ?>/scripts/jquery.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url') ?>/scripts/jquery-ui.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_url') ?>/scripts/lightbox.js"></script>
+		<?php get_template_part("lightbox","js"); ?>
 
 		<div class="portfolio-content">
 			<h1>MY PORTFOLIO</h1>
@@ -12,7 +12,9 @@
 					
 			
 					<?php
-					for($i=0;$i<16;$i++)echo "<a href='images/doors/$i.jpg' title='' rel='lightbox[group1]' ></a>"
+					for($i=1;$i<=16;$i++){
+						echo "<a href='images/doors/$i.jpg' title='' rel='lightbox[group1]' ></a>";
+					}
 					
 					
 							/*$pics_name = 1;
