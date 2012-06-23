@@ -11,6 +11,10 @@ body{
 	height:205px;
 }
 
+.pages{
+	background-color:black;
+}
+
 	/*********************backImage***************************/
 .noise{
 	background-image:url(images/picefct.png);

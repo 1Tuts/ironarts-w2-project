@@ -31,13 +31,36 @@
 <!--.........backImage.........-->
 
 <div class="noise"></div>
-<div class="backimg slideshow">
-	<div class="img1"></div>
-	<div class="img2"></div>
-	<div class="img3"></div>
-	<div class="img4"></div>
-	<div class="img5"></div>
-	<!--felan ina bashe baad php minevisim-->
+<div class="backimg <?php if($post->post_title != 'Portfolio' && $post->post_title != 'About us' && $post->post_title != 'contact us'){ echo'slideshow'; } ?>">
+	<?php
+		
+		if($post->post_title != 'Portfolio'  && $post->post_title != 'contact us' && $post->post_title != 'About us'){
+		echo"
+			<div class='img1'></div>
+			<div class='img2'></div>
+			<div class='img3'></div>
+			<div class='img4'></div>
+			<div class='img5'></div>
+		";}  
+		else if($post->post_title == 'About us'){
+		echo
+			"<div class='img3' style='opacity:.7'></div>",
+			"<div style='background-color:black;opacity:.7;'></div>";
+		} 
+		else if($post->post_title == 'Portfolio'){
+		echo
+			"<div class='img1' style='opacity:.7'></div>",
+			"<div style='background-color:black;opacity:.7;'></div>";
+		} 
+		else if($post->post_title == 'contact us'){
+		echo
+			"<div class='img2' style='opacity:.7'></div>",
+			"<div style='background-color:black;opacity:.7;'></div>";
+		} 
+	?>
+	
+	
+	
 </div>
 
 </body>
