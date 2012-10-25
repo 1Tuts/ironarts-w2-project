@@ -2,7 +2,7 @@
 				<div class='send-alert-error'>Error in sending mail. </div>
 				<div class='send-alert-correct'>Thank's for sending mail. </div>
 				<h1>SEND MESSAGE</h1>
-				<form method="post" action="">
+				<form method="post" action="<?php bloginfo('template_url') ?>/send-contact-form.php">
 					<table>
 						<tr>
 							<td><p>Full name <span>*</span></p></td>
@@ -26,7 +26,7 @@
 						</tr>
 					</table>
 					<input type="submit" class="ok" name="submit" value="SEND EMAIL">
-					<input type='reset' class='ok' name='reset'  onClick='hide_send_alert()' value='RESET'>
+					<input type='reset' class='ok' name='reset' value='RESET'>
 				</form>
 			</div>
 			<div class="clear"></div>
